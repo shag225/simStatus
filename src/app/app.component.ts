@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+// import entire SDK
+import * as AWS from 'aws-sdk';
+import { ItemList } from 'aws-sdk/clients/dynamodb';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'simStatus';
+  
+
+  constructor() {}
+
+  ngOnInit() {
+   
+  }
+ 
 }

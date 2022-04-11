@@ -1,0 +1,23 @@
+<mat-card class="example-card mt-3">
+    <mat-card-header>
+        <mat-card-title>TextBelt</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-list>
+            <mat-list-item>
+                <h3 matLine>Quota</h3>
+                <div class="quota">
+                    {{ quota }}
+                </div>
+            </mat-list-item>
+            
+        </mat-list>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button id="copy-button" [color]="color" (click)="copy()" ngxClipboard [cbContent]="'82fa937b99daacf3b03ee27e57da06418b3188besQkeRszs0zPtAMBuI0c1UCQDg'">
+            <span *ngIf="!copied">COPY KEY</span> 
+            <span *ngIf="copied">COPIED!</span>
+        </button>
+        <a mat-button color="primary" href="https://textbelt.com/purchase/" target="_blank">BUY MORE</a>
+    </mat-card-actions>
+</mat-card>
