@@ -4,7 +4,11 @@
 
 export const environment = {
   production: false,
-  textBeltAPIKey: '82fa937b99daacf3b03ee27e57da06418b3188besQkeRszs0zPtAMBuI0c1UCQDg'
+  textBeltAPIKey: '82fa937b99daacf3b03ee27e57da06418b3188besQkeRszs0zPtAMBuI0c1UCQDg',
+  mqttServer: '192.168.1.30',
+  awsAccessKeyId: 'AKIA6A7R6T3HWYB3KYAL', 
+  awsSecretAccessKey: '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',
+  awsConfigRegion: 'us-east-1'
 };
 
 /*

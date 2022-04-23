@@ -20,7 +20,7 @@ export class DashboardComponent implements OnInit {
   constructor(private _mqttService: MqttService) {}
 
   ngOnInit(): void {
-    AWS.config.update({accessKeyId: 'AKIA6A7R6T3H5FBKELFC', secretAccessKey: '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'});
+    AWS.config.update({accessKeyId: 'AKIA6A7R6T3HW5UNJO4S', secretAccessKey: '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'});
     // Configure the region
     AWS.config.region = 'us-east-1';
     //create the ddb object
